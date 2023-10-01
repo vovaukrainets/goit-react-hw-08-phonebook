@@ -1,5 +1,6 @@
-const AuthNav = () => {
-    return ()
-}
+import styled from '@emotion/styled';
 
-export default AuthNav;
+export const AuthNavMenu = styled.div`
+  display: flex;
+  gap: 24px;
+`;

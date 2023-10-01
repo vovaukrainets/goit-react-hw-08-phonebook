@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
 import { ContactListItem } from './ContactItem.styled';
 import { Button } from 'components/Commons/Button.styled';
@@ -23,8 +22,4 @@ export const ContactItem = ({ contact: { id, name, phone } }) => {
       </Button>
     </ContactListItem>
   );
-};
-
-ContactItem.propTypes = {
-  contact: PropTypes.objectOf(PropTypes.string).isRequired,
 };
