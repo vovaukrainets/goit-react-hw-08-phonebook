@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { AuthNavMenu } from './AuthNav.styled';
 import { StyledLink } from 'components/Commons/Commons.styled';
 
