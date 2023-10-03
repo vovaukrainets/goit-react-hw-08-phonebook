@@ -1,4 +1,4 @@
-import { useAuth } from 'hooks/useAuth';
+import { useAuth } from '../hooks/useAuth';
 import { NavMenu } from './Navigation.styled';
 import { StyledLink } from 'components/Commons/Commons.styled';
 

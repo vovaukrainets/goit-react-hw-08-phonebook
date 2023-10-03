@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { Button, FormGroup, TextField } from '@mui/material';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact } from '../redux/operations';
-import { selectContacts } from '../redux/selectors';
+import { selectContacts } from '../redux/contacts/selectors';
+import { addContact } from '../redux/contacts/operations';
+import { Button, FormGroup, TextField } from '@mui/material';
 
 export const ContactForm = () => {
   const [name, setName] = useState('');

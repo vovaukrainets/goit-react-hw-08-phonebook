@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { ContactListItem } from './ContactItem.styled';
 import { Button, Typography } from '@mui/material';
-import { deleteContact } from '../redux/operations';
-import { selectIsLoading } from '../redux/selectors';
+import { deleteContact } from '../redux/contacts/operations';
+import { selectIsLoading } from '../redux/contacts/selectors';
 
 export const ContactItem = ({ contact: { id, name, number } }) => {
   const dispatch = useDispatch();

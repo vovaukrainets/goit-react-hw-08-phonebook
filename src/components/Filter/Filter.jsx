@@ -1,6 +1,6 @@
-import { setFilter } from '../redux/filter/filterSlice';
+import { setFilter } from '../redux/filter/slice';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectFilter } from '../redux/selectors';
+import { selectFilter } from '../redux/filter/selectors';
 import { TextField } from '@mui/material';
 
 export const Filter = () => {
