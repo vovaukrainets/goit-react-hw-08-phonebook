@@ -6,7 +6,7 @@ export const StyledLink = styled(NavLink)`
   font-size: 18px;
 
   &.active {
-    color: #bd3e53;
+    color: #ff0000;
   }
 `;
 
@@ -34,6 +34,7 @@ export const Form = styled.form`
   border-radius: 3px;
   overflow: hidden;
   border: 1px solid #111;
+  padding-top: 20px;
   margin-bottom: 12px;
 `;
 
@@ -54,9 +55,8 @@ export const FormInput = styled.input`
 `;
 
 export const StyledSimpleLink = styled(Link)`
-  /* display: block; */
-  color: #bd3e53;
+  color: red;
   text-align: center;
   font-size: 14px;
-  margin-top: 16px;
+  padding: 2px 10px;
 `;

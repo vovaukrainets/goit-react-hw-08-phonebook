@@ -92,7 +92,7 @@ const RegisterForm = () => {
           <Button variant="contained" type="submit" disabled={isLoading}>
             Sign Up
           </Button>
-          <StyledSimpleLink to="/login">or Log In</StyledSimpleLink>
+          <StyledSimpleLink to="/login">Log In</StyledSimpleLink>
         </FormGroup>
       </form>
     </>

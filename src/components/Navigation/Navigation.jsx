@@ -1,4 +1,6 @@
 import { useAuth } from '../hooks/useAuth';
+import React from 'react';
+
 import { NavMenu } from './Navigation.styled';
 import { StyledLink } from 'components/Commons/Commons.styled';
 

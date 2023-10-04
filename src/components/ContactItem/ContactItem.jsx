@@ -1,8 +1,10 @@
+import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
 import { ContactListItem } from './ContactItem.styled';
-import { Button, Typography } from '@mui/material';
-import { deleteContact } from '../redux/contacts/operations';
+
 import { selectIsLoading } from '../redux/contacts/selectors';
+import { deleteContact } from '../redux/contacts/operations';
+import { Button, Typography } from '@mui/material';
 
 export const ContactItem = ({ contact: { id, name, number } }) => {
   const dispatch = useDispatch();
@@ -25,4 +27,8 @@ export const ContactItem = ({ contact: { id, name, number } }) => {
       </Button>
     </ContactListItem>
   );
+};
+
+ContactItem.propTypes = {
+  contact: PropTypes.objectOf(PropTypes.string).isRequired,
 };

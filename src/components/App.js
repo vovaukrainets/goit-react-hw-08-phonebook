@@ -1,10 +1,10 @@
-import { useAuth } from '../components/hooks/useAuth';
+import { useAuth } from './hooks/useAuth';
 import { lazy, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
-import { refreshUser } from '../components/redux/auth/operations';
-import { PrivateRoute } from '../components/routes/PrivateRoute';
-import { RestrictedRoute } from '../components/routes/RestrictedRoute';
+import { refreshUser } from './redux/auth/operations';
+import { PrivateRoute } from './routes/PrivateRoute';
+import { RestrictedRoute } from './routes/RestrictedRoute';
 import Layout from './Layout/Layout';
 import { CircularProgress } from '@mui/material';
 

@@ -1,5 +1,6 @@
 import { Container } from '@mui/material';
 import { StyledSimpleLink } from 'components/Commons/Commons.styled';
+import React from 'react';
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
         minWidth: 320,
       }}
     >
-      <h1>Phone Book welcome page</h1>
+      <h1>Phone Book welcome!</h1>
       <p>
         <StyledSimpleLink to="/register">Sign Up</StyledSimpleLink> or{' '}
         <StyledSimpleLink to="/login">Log In</StyledSimpleLink> for beginning.

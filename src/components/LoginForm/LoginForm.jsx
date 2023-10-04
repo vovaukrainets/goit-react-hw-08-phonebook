@@ -77,7 +77,7 @@ const LoginForm = () => {
         <Button variant="contained" type="submit" disabled={isLoading}>
           LogIn
         </Button>
-        <StyledSimpleLink to="/register">or Sign Up</StyledSimpleLink>
+        <StyledSimpleLink to="/register">Sign Up</StyledSimpleLink>
       </FormGroup>
     </form>
   );
